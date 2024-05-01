@@ -10,7 +10,7 @@ const Navigation = () => {
             <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Contact</li>
+            <li>Contact us</li>
             </ul></div>
     </nav>
   )
