@@ -1,0 +1,61 @@
+
+.outline_btn {
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 220px;
+  /* width: 100%; */
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(117, 117, 247);
+  color: white;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid rgb(250, 250, 250);
+  border-right: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+.outline_btn:hover {
+  border-bottom: 2px solid rgb(117, 117, 247);
+  border-right: 2px solid rgb(117, 117, 247);
+  box-shadow: rgba(117, 117, 247, 0.4) 5px 5px,
+    rgba(117, 117, 247, 0.3) 10px 10px, rgba(117, 117, 247, 0.2) 15px 15px;
+}
+
+.primary_btn {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 220px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  color: rgb(117, 117, 247);
+  border-radius: 0.5rem;
+  border-bottom: 2px solid rgb(117, 117, 247);
+  border-right: 2px solid rgb(117, 117, 247);
+  border-top: 2px solid rgb(117, 117, 247);
+  border-left: 2px solid rgb(117, 117, 247);
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.primary_btn:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(117, 117, 247);
+  border-right: 2px solid rgb(117, 117, 247);
+  box-shadow: rgba(117, 117, 247, 0.4) 5px 5px,
+    rgba(117, 117, 247, 0.3) 10px 10px, rgba(117, 117, 247, 0.2) 15px 15px;
+}
